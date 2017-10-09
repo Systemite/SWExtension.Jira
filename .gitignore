@@ -1,0 +1,7 @@
+*.suo
+Imported/swExplorer.exe
+Imported/swExplorerExtensions/RemObjects.Hydra.dll
+Imported/swExplorerExtensions/RemObjects.Hydra.WPF.dll
+Imported/swExplorerExtensions/SystemWeaverExtensionsAPI.dll
+Project/bin/
+Project/obj/

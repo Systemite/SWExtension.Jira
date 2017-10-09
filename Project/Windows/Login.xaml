@@ -1,0 +1,32 @@
+﻿<Window x:Class="SWExtension.Jira.Windows.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" 
+		Height="180" Width="400" 
+		ResizeMode="NoResize" 
+		WindowStartupLocation="CenterOwner">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0" Margin="10" VerticalAlignment="Center">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" Text="Jira user:" HorizontalAlignment="Right" VerticalAlignment="Center" />
+			<TextBox Grid.Row="0" Grid.Column="1" Margin="5,0,0,0" Name="UserNameBox" Height="23" VerticalContentAlignment="Center" />
+			<TextBlock Grid.Row="1" Grid.Column="0" Margin="0,10,0,0" Text="Password:" HorizontalAlignment="Right" VerticalAlignment="Center" />
+			<PasswordBox Grid.Row="1" Grid.Column="1" Margin="5,10,0,0" Name="PasswordBox" Height="23" VerticalContentAlignment="Center" />
+		</Grid>
+		<Grid Grid.Row="1" Background="#F0F0F0">
+			<Button Margin="5" Width="100" Height="23" HorizontalAlignment="Right" Content="Login" Click="LoginButton_Click" IsDefault="True" />
+        </Grid>
+    </Grid>
+</Window>

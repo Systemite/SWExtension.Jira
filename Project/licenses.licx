@@ -1,0 +1,3 @@
+RemObjects.Hydra.VisualPlugin, RemObjects.Hydra
+RemObjects.Hydra.NonVisualPlugin, RemObjects.Hydra
+RemObjects.Hydra.WPF.VisualPlugin, RemObjects.Hydra.WPF

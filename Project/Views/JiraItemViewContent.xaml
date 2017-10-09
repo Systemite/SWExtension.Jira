@@ -1,0 +1,8 @@
+﻿<hydra:VisualPlugin x:Class="SWExtension.Jira.Views.JiraItemViewContent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:hydra="clr-namespace:RemObjects.Hydra.WPF;assembly=RemObjects.Hydra.WPF"
+    xmlns:views="clr-namespace:SWExtension.Jira.Views"
+    Background="White">
+    <views:JiraControl x:Name="JiraControl" />
+</hydra:VisualPlugin>
