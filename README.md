@@ -1,8 +1,7 @@
 # SystemWeaver-Jira integration sample
 
-This demo shows how to integrate SystemWeaver with Jira by building an to the swExplorer which shows Jira issues connected to a given item.
-
-The SystemWeaver item and the Jira issue are connected by a custom field of type text which are supposed to contain a SystemWeaver url
+This demo shows how to integrate SystemWeaver with Jira by building an extension to the swExplorer which shows Jira issues connected to a given item.
+The SystemWeaver item and the Jira issue are connected by a custom field of type text which contains a SystemWeaver url.
 
 
 ## Prerequisites
@@ -21,7 +20,4 @@ The csproj file contains a reference to swExplorer.exe as start program for the 
 
 ## Documentation
 
-For more information, please consult our customer portal on https://support.systemweaver.se/solution/articles/31000134989-systemweaver-jira-integration.
-
-
-
+For more information, please consult our customer portal on https://support.systemweaver.se/support/solutions/articles/31000134989-systemweaver-jira-extension-example.
