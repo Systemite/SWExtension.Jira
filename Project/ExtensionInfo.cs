@@ -4,7 +4,7 @@ using SystemWeaver.ExtensionsAPI;
 namespace SWExtension.Jira
 {
     [Plugin, NonVisualPlugin]
-    public class ExtensionInfo : NonVisualPlugin, IswExtensionInfo
+    public class ExtensionInfo : ExtensionInfoBase, IswExtensionInfo
     {
         public string GetAbout()
         {
